@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import HeroSection from '../../components/HeroSection/HeroSection.jsx';
 import { ChevronDown } from "lucide-react";
 import './Homepage.scss';
-import DivisionSection from "../../components/MainSection/DivisionSection.jsx";
+import DivisionSection from "../../components/DivisionSection/DivisionSection.jsx";
 import TitleSection from "../../components/TitleSection/TitleSection.jsx";
 import WhatSection from "../../components/WhatSection/WhatSection.jsx";
 

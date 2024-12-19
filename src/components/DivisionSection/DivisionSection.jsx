@@ -1,4 +1,4 @@
-// src/components/MainSection/MainSection.jsx
+// src/components/DivisionSection/DivisionSection.jsx
 import React from "react";
 import DivisionCard from '../../components/DivisionCard/DivisionCard.jsx';
 import { divisions } from '../../constants/navigation';
