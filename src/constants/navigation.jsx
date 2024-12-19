@@ -4,7 +4,6 @@ export const navLinks = [
     ['MEMBERS', '/members'],
     ['EVENTS', '/events'],
     ['RESOURCES', '/resources'],
-    ['TERMINAL', '/terminal']
 ];
 
 export const divisions = [
