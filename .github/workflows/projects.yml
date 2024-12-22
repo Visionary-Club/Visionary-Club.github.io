@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Generate projects.json
-        run: node generateProjectsJson.js
+        run: node generateProjectsJson.cjs
 
       - name: Commit and push projects.json
         run: |
