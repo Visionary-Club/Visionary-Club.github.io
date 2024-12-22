@@ -21,8 +21,8 @@ const App = () => {
 
             <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
             <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/projects" element={<ProjectsPage />} />
+                <Route path="/Visionary-Club.github.io/" element={<HomePage />} />
+                <Route path="/Visionary-Club.github.io/projects" element={<ProjectsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </Router>
