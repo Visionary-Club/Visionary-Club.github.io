@@ -9,23 +9,19 @@ import {loadSlim} from "tsparticles-slim";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import {ThemeProvider} from "./providers/ThemeProvider/ThemeProvider.jsx";
 
-
 const App = () => {
-
-
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
         <ThemeProvider>
-        <Router>
-
-            <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
-            <Routes>
-                <Route path="/Visionary-Club.github.io/" element={<HomePage />} />
-                <Route path="/Visionary-Club.github.io/projects" element={<ProjectsPage />} />
-                <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-        </Router>
+            <Router>
+                <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/projects" element={<ProjectsPage />} />
+                    <Route path="*" element={<NotFoundPage />} />
+                </Routes>
+            </Router>
         </ThemeProvider>
     );
 };
