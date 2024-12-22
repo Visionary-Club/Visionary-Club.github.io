@@ -12,11 +12,11 @@
     ],
     "githubUrl": "https://github.com/visionary-club/cybersec-labs",
     "status": "Completed",
-    "image": "/Projects/CYBERSEC_LABS/images/main.svg",
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/main.svg",
     "images": [
-      "/Projects/CYBERSEC_LABS/images/01.svg",
-      "/Projects/CYBERSEC_LABS/images/02.svg",
-      "/Projects/CYBERSEC_LABS/images/03.svg"
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/01.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/02.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/03.svg"
     ]
   },
   {
@@ -32,11 +32,11 @@
     ],
     "githubUrl": "https://github.com/visionary-club/data-science-lab",
     "status": "Completed",
-    "image": "/Projects/DATA_SCIENCE_LAB/images/main.svg",
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/main.svg",
     "images": [
-      "/Projects/DATA_SCIENCE_LAB/images/01.svg",
-      "/Projects/DATA_SCIENCE_LAB/images/02.svg",
-      "/Projects/DATA_SCIENCE_LAB/images/03.svg"
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/01.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/02.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/03.svg"
     ]
   },
   {
@@ -52,11 +52,11 @@
     ],
     "githubUrl": "https://github.com/visionary-club/iot-workshop",
     "status": "Active",
-    "image": "/Projects/IOT_WORKSHOP/images/main.svg",
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/main.svg",
     "images": [
-      "/Projects/IOT_WORKSHOP/images/01.svg",
-      "/Projects/IOT_WORKSHOP/images/02.svg",
-      "/Projects/IOT_WORKSHOP/images/03.svg"
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/01.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/02.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/03.svg"
     ]
   },
   {
@@ -72,11 +72,11 @@
     ],
     "githubUrl": "https://github.com/visionary-club/project-alpha",
     "status": "In Progress",
-    "image": "/Projects/PROJECT_ALPHA/images/main.svg",
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/main.svg",
     "images": [
-      "/Projects/PROJECT_ALPHA/images/01.svg",
-      "/Projects/PROJECT_ALPHA/images/02.svg",
-      "/Projects/PROJECT_ALPHA/images/03.svg"
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/01.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/02.svg",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/03.svg"
     ]
   }
 ]
