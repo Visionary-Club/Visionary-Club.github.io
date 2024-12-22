@@ -1,0 +1,14 @@
+{
+  "title": "CYBERSEC_LABS",
+  "description": "A hub for cybersecurity enthusiasts to learn and practice network defenses.",
+  "date": "2023-09-01",
+  "longDescription": "CyberSec Labs provides a comprehensive platform for cybersecurity training and research. Our virtual environments enable hands-on experience with network security, penetration testing, and defensive strategies.",
+  "technologies": [
+    "Kali Linux",
+    "Wireshark",
+    "Metasploit",
+    "Python"
+  ],
+  "githubUrl": "https://github.com/visionary-club/cybersec-labs",
+  "status": "Completed"
+}

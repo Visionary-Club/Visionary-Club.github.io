@@ -1,0 +1,14 @@
+{
+  "title": "DATA_SCIENCE_LAB",
+  "description": "A place for exploring advanced data analytics and statistical modeling.",
+  "date": "2022-12-31",
+  "longDescription": "Data Science Lab focuses on applying advanced statistical methods and machine learning techniques to solve complex analytical challenges. Our research spans from predictive modeling to large-scale data visualization.",
+  "technologies": [
+    "Python",
+    "R",
+    "SQL",
+    "Tableau"
+  ],
+  "githubUrl": "https://github.com/visionary-club/data-science-lab",
+  "status": "Completed"
+}
