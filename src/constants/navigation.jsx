@@ -1,9 +1,9 @@
 export const navLinks = [
-    ['HOME', '/'],
-    ['PROJECTS', '/projects'],
-    ['MEMBERS', '/members'],
-    ['EVENTS', '/events'],
-    ['RESOURCES', '/resources'],
+    ['HOME', '/Visionary-Club.github.io/'],
+    ['PROJECTS', '/Visionary-Club.github.io//projects'],
+    ['MEMBERS', '/Visionary-Club.github.io//members'],
+    ['EVENTS', '/Visionary-Club.github.io//events'],
+    ['RESOURCES', '/Visionary-Club.github.io//resources'],
 ];
 
 export const divisions = [
