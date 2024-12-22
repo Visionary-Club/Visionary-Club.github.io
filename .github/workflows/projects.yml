@@ -1,0 +1,32 @@
+name: Generate and Add projects.json to Repo
+
+on:
+  push:
+    branches: ['development']
+
+jobs:
+  generate-projects-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate projects.json
+        run: node generateProjectsJson.js
+
+      - name: Commit and push projects.json
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add projects.json
+          git commit -m 'Generate projects.json'
+          git push
