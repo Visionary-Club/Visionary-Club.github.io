@@ -3,6 +3,7 @@ const path = require('path');
 
 const projectsDir = path.join(__dirname, 'public', 'Projects');
 const projectsJsonPath = path.join(__dirname, 'public', 'projects.json');
+const rawBaseUrl = 'https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects';
 
 const generateProjectsJson = async () => {
     const projectDirs = await fs.readdir(projectsDir);
@@ -17,7 +18,7 @@ const generateProjectsJson = async () => {
             // Add main image
             const mainImagePath = path.join(projectsDir, dir, 'images', 'main.svg');
             if (await fs.pathExists(mainImagePath)) {
-                metadata.image = `/Projects/${dir}/images/main.svg`;
+                metadata.image = `${rawBaseUrl}/${dir}/images/main.svg`;
             }
 
             // Add additional images
@@ -25,7 +26,7 @@ const generateProjectsJson = async () => {
                 const imagePathSvg = path.join(projectsDir, dir, 'images', `${String(i).padStart(2, '0')}.svg`);
 
                 if (await fs.pathExists(imagePathSvg)) {
-                    images.push(`/Projects/${dir}/images/${String(i).padStart(2, '0')}.svg`);
+                    images.push(`${rawBaseUrl}/${dir}/images/${String(i).padStart(2, '0')}.svg`);
                 } else {
                     break;
                 }
