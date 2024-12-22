@@ -2,9 +2,11 @@
 <html>
 <head>
     <script type="text/javascript">
-        // Redirect to the current path
+        // Redirect to the current path if not already redirected
         var path = window.location.pathname;
-        window.location.replace('/Visionary-Club.github.io' + path);
+        if (!path.startsWith('/Visionary-Club.github.io')) {
+            window.location.replace('/Visionary-Club.github.io' + path);
+        }
     </script>
 </head>
 <body>
