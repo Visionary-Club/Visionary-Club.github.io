@@ -8,7 +8,8 @@ const ParticlesBackground = ({ init, loaded }) => {
     const particlesConfig = {
         background: {
         },
-        fpsLimit: 120,
+        fpsLimit: typeof window !== 'undefined' ?
+            Math.min(window.screen?.refreshRate || 60, 120) : 60,
         interactivity: {
             events: {
                 onClick: {
