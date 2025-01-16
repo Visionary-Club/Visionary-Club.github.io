@@ -5,6 +5,6 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <App className="bg-gradient-to-r from-black to-gray-900"/>
   </StrictMode>,
 )

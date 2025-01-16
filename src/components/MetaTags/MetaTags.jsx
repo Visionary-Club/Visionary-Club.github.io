@@ -1,6 +1,6 @@
 // src/components/MetaTags/MetaTags.jsx
 import { Helmet } from "react-helmet";
-import logoPath from '../../assets/VISIONARY_CLUB.png';
+import logoPath from '/logo.png';
 
 export const MetaTags = ({ title = "Visionary Club", description = "Join the next generation of technology innovators" }) => (
     <Helmet>
