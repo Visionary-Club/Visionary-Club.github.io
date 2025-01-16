@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TitleSection from "../../components/TitleSection/TitleSection.jsx";
 import { useTheme } from "../../hooks/DarkMode/DarkMode.jsx";
-import ProjectCard from "../../components/ProjectCard/ProjectCard.jsx";
-import ProjectModal from "../../components/ProjectModal/ProjectModal.jsx";
+import ProjectCard from "./components/ProjectCard/ProjectCard.jsx";
+import ProjectModal from "./components/ProjectModal/ProjectModal.jsx";
 
 import './ProjectsPage.scss';
 
@@ -13,7 +13,8 @@ const ProjectsPage = () => {
     const [selectedProject, setSelectedProject] = useState(null);
 
     useEffect(() => {
-        axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/projects.json')
+        //axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/projects.json')
+        axios.get('/projects.json')
             .then(response => {
                 const sortedProjects = response.data.sort(
                     (a, b) => new Date(b.date) - new Date(a.date)
@@ -26,7 +27,7 @@ const ProjectsPage = () => {
     return (
         <>
             <div className={`min-h-screen w-screen overflow-y-scroll hide-scrollbar scrollbar-none ${
-                isDark ? 'bg-transparent' : 'bg-cyan-50'
+                isDark ? 'bg-transparent' : 'bg-gray-50'
             }`}>
                 <TitleSection title="OUR_PROJECTS" />
 

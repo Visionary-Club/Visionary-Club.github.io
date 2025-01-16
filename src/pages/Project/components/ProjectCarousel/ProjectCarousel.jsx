@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
-import {useTheme} from "../../hooks/DarkMode/DarkMode.jsx";
+import {useTheme} from "../../../../hooks/DarkMode/DarkMode.jsx";
 
 const ProjectCarousel = ({ project }) => {
     const [loadingStates, setLoadingStates] = useState(

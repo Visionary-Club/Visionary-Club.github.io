@@ -7,26 +7,26 @@
 //                 <div className={`${extraParams} border-2 border-cyan-500 rounded-lg p-6 shadow-lg w-[90vw] mx-auto flex justify-center items-center`}>
 //                     <div className="relative inline-block px-12 py-6">
 //                         {/* Top left diagonal dash */}
-//                         <div className="absolute -top-2 -left-6 w-12 h-[1.5px] bg-cyan-500 -rotate-45 origin-right"></div>
+//                         <div className="absolute -top-2 -left-6 w-12 h-[1.5px] ${darkColor -rotate-45 origin-right"></div>
 //
 //                         {/* Top horizontal dash */}
-//                         <div className="absolute -top-2 left-6 right-[15.25rem] h-[1.5px] bg-cyan-500"></div>
+//                         <div className="absolute -top-2 left-6 right-[15.25rem] h-[1.5px] ${darkColor"></div>
 //
 //                         {/* Bottom horizontal dash */}
-//                         <div className="absolute -bottom-2 left-56 right-6 h-[1.5px] bg-cyan-500"></div>
+//                         <div className="absolute -bottom-2 left-56 right-6 h-[1.5px] ${darkColor"></div>
 //
 //                         {/* Bottom right diagonal dash */}
-//                         <div className="absolute -bottom-2 -right-6 w-12 h-[1.5px] bg-cyan-500 -rotate-45 origin-left"></div>
+//                         <div className="absolute -bottom-2 -right-6 w-12 h-[1.5px] ${darkColor -rotate-45 origin-left"></div>
 //
 //                         {/* Create dashed effect using multiple small divs */}
 //                         {[...Array(8)].map((_, i) => (
 //                             <React.Fragment key={i}>
 //                                 <div
-//                                     className="absolute -top-2 h-[1.5px] w-1 bg-cyan-500"
+//                                     className="absolute -top-2 h-[1.5px] w-1 ${darkColor"
 //                                     style={{ left: `${30 + i * 5}%` }}
 //                                 ></div>
 //                                 <div
-//                                     className="absolute -bottom-2 h-[1.5px] w-1 bg-cyan-500"
+//                                     className="absolute -bottom-2 h-[1.5px] w-1 ${darkColor"
 //                                     style={{ left: `${30 + i * 5}%` }}
 //                                 ></div>
 //                             </React.Fragment>
@@ -38,26 +38,26 @@
 //             ) : (
 //                 <div className="relative inline-block px-12 py-6">
 //                     {/* Top left diagonal dash */}
-//                     <div className="absolute -top-2 -left-6 w-12 h-[1.5px] bg-cyan-500 -rotate-45 origin-right"></div>
+//                     <div className="absolute -top-2 -left-6 w-12 h-[1.5px] ${darkColor -rotate-45 origin-right"></div>
 //
 //                     {/* Top horizontal dash */}
-//                     <div className="absolute -top-2 left-6 right-60 h-[1.5px] bg-cyan-500"></div>
+//                     <div className="absolute -top-2 left-6 right-60 h-[1.5px] ${darkColor"></div>
 //
 //                     {/* Bottom horizontal dash */}
-//                     <div className="absolute -bottom-2 left-56 right-6 h-[1.5px] bg-cyan-500"></div>
+//                     <div className="absolute -bottom-2 left-56 right-6 h-[1.5px] ${darkColor"></div>
 //
 //                     {/* Bottom right diagonal dash */}
-//                     <div className="absolute -bottom-2 -right-6 w-12 h-[1.5px] bg-cyan-500 -rotate-45 origin-left"></div>
+//                     <div className="absolute -bottom-2 -right-6 w-12 h-[1.5px] ${darkColor -rotate-45 origin-left"></div>
 //
 //                     {/* Create dashed effect using multiple small divs */}
 //                     {[...Array(8)].map((_, i) => (
 //                         <React.Fragment key={i}>
 //                             <div
-//                                 className="absolute -top-2 h-[1.5px] w-1 bg-cyan-500"
+//                                 className="absolute -top-2 h-[1.5px] w-1 ${darkColor"
 //                                 style={{ left: `${30 + i * 5}%` }}
 //                             ></div>
 //                             <div
-//                                 className="absolute -bottom-2 h-[1.5px] w-1 bg-cyan-500"
+//                                 className="absolute -bottom-2 h-[1.5px] w-1 ${darkColor"
 //                                 style={{ left: `${30 + i * 5}%` }}
 //                             ></div>
 //                         </React.Fragment>
@@ -199,7 +199,7 @@
 //             {/* Top Right Horizontal Dash */}
 //             <motion.div
 //                 className={`absolute -top-2 -left-6 right-[15.25rem] h-[2.5px] ${
-//                     isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+//                     isDark ? '${darkColor' : '${lightColor'
 //                 }`}
 //                 variants={topRightDashVariants}
 //                 initial="hidden"
@@ -209,7 +209,7 @@
 //             {/* Bottom Left Horizontal Dash */}
 //             <motion.div
 //                 className={`absolute -bottom-2 left-56 -right-6 h-[2.5px] ${
-//                     isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+//                     isDark ? '${darkColor' : '${lightColor'
 //                 }`}
 //                 variants={bottomLeftDashVariants}
 //                 initial="hidden"
@@ -221,7 +221,7 @@
 //                 <React.Fragment key={i}>
 //                     <motion.div
 //                         className={`absolute -top-2 h-[2.5px] w-1 ${
-//                             isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+//                             isDark ? '${darkColor' : '${lightColor'
 //                         }`}
 //                         style={{left: `${45 + i * 5}%`}}
 //                         variants={topLeftDashVariants}
@@ -230,7 +230,7 @@
 //                     />
 //                     <motion.div
 //                         className={`absolute -bottom-2 h-[2.5px] w-1 ${
-//                             isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+//                             isDark ? '${darkColor' : '${lightColor'
 //                         }`}
 //                         style={{left: `${30 + i * 5}%`}}
 //                         variants={bottomRightDashVariants}
@@ -310,7 +310,9 @@ const TitleSection = ({
                           title,
                           extraParams = "",
                           enableCard = false,
-                          fontSize = "5xl"
+                          fontSize = "5xl",
+                          darkColor = `bg-cyan-500`,
+                          lightColor = `bg-cyan-600`
                       }) => {
     const titleRef = useRef(null);
     const controls = useAnimation();
@@ -397,7 +399,7 @@ const TitleSection = ({
                 {/* Top line - starts from left */}
                 <motion.div
                     className={`absolute -top-2 left-[10%] md:left-[22%] right-[51%] h-[2px] ${
-                        isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+                        isDark ? `${darkColor}` : `${lightColor}`
                     }`}
                     variants={topLineVariants}
                     initial="hidden"
@@ -407,7 +409,7 @@ const TitleSection = ({
                 {/* Bottom line - starts from right */}
                 <motion.div
                     className={`absolute -bottom-2 left-[51%] right-[10%] md:right-[22%] h-[2.5px] ${
-                        isDark ? 'bg-cyan-500' : 'bg-cyan-600'
+                        isDark ? `${darkColor}` : `${lightColor}`
                     }`}
                     variants={bottomLineVariants}
                     initial="hidden"
@@ -419,7 +421,7 @@ const TitleSection = ({
                     {[...Array(5)].map((_, i) => (
                         <motion.div
                             key={`top-${i}`}
-                            className={`h-0.5 w-1 ${isDark ? 'bg-cyan-500' : 'bg-cyan-600'}`}
+                            className={`h-0.5 w-1 ${isDark ? `${darkColor}` : `${lightColor}`}`}
                             variants={dashVariants}
                             custom={i}
                             initial="hidden"
@@ -433,7 +435,7 @@ const TitleSection = ({
                     {[...Array(5)].map((_, i) => (
                         <motion.div
                             key={`bottom-${i}`}
-                            className={`h-0.5 w-1 ${isDark ? 'bg-cyan-500' : 'bg-cyan-600'}`}
+                            className={`h-0.5 w-1 ${isDark ? `${darkColor}` : `${lightColor}`}`}
                             variants={dashVariants}
                             custom={i}
                             initial="hidden"
