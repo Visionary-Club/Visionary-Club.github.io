@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Intrusion Detection In Hazardous Areas",
+    "description": "To Detect any kind of human presence or intrusion in hazardous area.",
+    "date": "2025-05-13",
+    "longDescription": "Detect any human activity like thefts and sending an alert via a buzzer sensor. Recording the human intrusion from the hazardous area and sending photos/videos of human intrusion to the locally hosted server. To make an edge-cutted circuit like the picture given below and detecting human intrusion.",
+    "technologies": [
+      "Deep Learning",
+      "IOT",
+      "Python"
+    ],
+    "githubUrl": null,
+    "status": "Completed",
+    "mentor": {
+      "name": "Dr. N.V. Satpute",
+      "linkedin": "https://www.linkedin.com/in/nitinsatpute123/"
+    },
+    "team": [
+      {
+        "name": "Shriram Dixit",
+        "linkedin": "https://www.linkedin.com/in/shriram-dixit-9470a1285/"
+      },
+      {
+        "name": "Omkar More",
+        "linkedin": "https://www.linkedin.com/in/omkar-more-038567281/"
+      },
+      {
+        "name": "Varun Inamdar",
+        "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/"
+      },
+      {
+        "name": "Jayashri Utrankar",
+        "linkedin": "https://www.linkedin.com/in/jayashri-utrankar-8546712a8/"
+      },
+      {
+        "name": "Rohan Kumar Sinha",
+        "linkedin": "https://www.linkedin.com/in/rohan-sinha-b1b778312/"
+      },
+      {
+        "name": "Sujal Gundlapelli"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/main.png",
+    "images": [
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/01.png",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/02.png"
+    ]
+  }
+]
