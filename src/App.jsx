@@ -2,17 +2,11 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ProjectsPage from './pages/Project/ProjectsPage.jsx';
 import HomePage from './pages/Home/Homepage';
 import NotFoundPage from './pages/NotFound/NotFoundPage.jsx';
-import {particlesConfig} from "./config/particlesConfig.js";
-import Particles from "react-tsparticles";
 import React, {useCallback, useState} from "react";
-import {loadSlim} from "tsparticles-slim";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import {ThemeProvider} from "./providers/ThemeProvider/ThemeProvider.jsx";
-import EventsPage from "./New/components/Events.jsx";
-
 import HackathonPage from "./New/components/Hackathon.jsx";
 import MembersPage from "./pages/Members/MembersPage.jsx";
-import {useTheme} from "./hooks/DarkMode/DarkMode.jsx";
 import JoinUsPage from "./pages/JoinUs/JoinUsPage.jsx";
 import ContactUsPage from "./pages/ContactUs/ContactUsPage.jsx";
 
