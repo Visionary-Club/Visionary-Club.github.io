@@ -1,82 +1,49 @@
 [
   {
-    "title": "CYBERSEC_LABS",
-    "description": "A hub for cybersecurity enthusiasts to learn and practice network defenses.",
-    "date": "2023-09-01",
-    "longDescription": "CyberSec Labs provides a comprehensive platform for cybersecurity training and research. Our virtual environments enable hands-on experience with network security, penetration testing, and defensive strategies.",
+    "title": "Intrusion Detection In Hazardous Areas",
+    "description": "To Detect any kind of human presence or intrusion in hazardous area.",
+    "date": "2025-05-13",
+    "longDescription": "Detect any human activity like thefts and sending an alert via a buzzer sensor. Recording the human intrusion from the hazardous area and sending photos/videos of human intrusion to the locally hosted server. To make an edge-cutted circuit like the picture given below and detecting human intrusion.",
     "technologies": [
-      "Kali Linux",
-      "Wireshark",
-      "Metasploit",
+      "Deep Learning",
+      "IOT",
       "Python"
     ],
-    "githubUrl": "https://github.com/visionary-club/cybersec-labs",
+    "githubUrl": null,
     "status": "Completed",
-    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/main.svg",
-    "images": [
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/01.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/02.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/CYBERSEC_LABS/images/03.svg"
-    ]
-  },
-  {
-    "title": "DATA_SCIENCE_LAB",
-    "description": "A place for exploring advanced data analytics and statistical modeling.",
-    "date": "2022-12-31",
-    "longDescription": "Data Science Lab focuses on applying advanced statistical methods and machine learning techniques to solve complex analytical challenges. Our research spans from predictive modeling to large-scale data visualization.",
-    "technologies": [
-      "Python",
-      "R",
-      "SQL",
-      "Tableau"
+    "mentor": {
+      "name": "Dr. N.V. Satpute",
+      "linkedin": "https://www.linkedin.com/in/nitinsatpute123/"
+    },
+    "team": [
+      {
+        "name": "Shriram Dixit",
+        "linkedin": "https://www.linkedin.com/in/shriram-dixit-9470a1285/"
+      },
+      {
+        "name": "Omkar More",
+        "linkedin": "https://www.linkedin.com/in/omkar-more-038567281/"
+      },
+      {
+        "name": "Varun Inamdar",
+        "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/"
+      },
+      {
+        "name": "Jayashri Utrankar",
+        "linkedin": "https://www.linkedin.com/in/jayashri-utrankar-8546712a8/"
+      },
+      {
+        "name": "Rohan Kumar Sinha",
+        "linkedin": "https://www.linkedin.com/in/rohan-sinha-b1b778312/"
+      },
+      {
+        "name": "Sujal Gundlapelli"
+      }
     ],
-    "githubUrl": "https://github.com/visionary-club/data-science-lab",
-    "status": "Completed",
-    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/main.svg",
+    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/main.png",
     "images": [
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/01.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/02.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/DATA_SCIENCE_LAB/images/03.svg"
-    ]
-  },
-  {
-    "title": "IOT_WORKSHOP",
-    "description": "An innovation center for building internet-connected systems and smart devices.",
-    "date": "2023-08-20",
-    "longDescription": "IoT Workshop serves as our primary facility for developing and testing Internet of Things devices. We focus on creating sustainable and efficient connected systems for various applications.",
-    "technologies": [
-      "Arduino",
-      "Raspberry Pi",
-      "MQTT",
-      "Node.js"
-    ],
-    "githubUrl": "https://github.com/visionary-club/iot-workshop",
-    "status": "Active",
-    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/main.svg",
-    "images": [
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/01.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/02.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/IOT_WORKSHOP/images/03.svg"
-    ]
-  },
-  {
-    "title": "PROJECT_ALPHA",
-    "description": "An AI research initiative focused on building cutting-edge neural networks.",
-    "date": "2023-11-15",
-    "longDescription": "Project Alpha represents our ambitious venture into artificial intelligence research. Our team focuses on developing advanced neural network architectures that push the boundaries of machine learning capabilities.",
-    "technologies": [
-      "TensorFlow",
-      "PyTorch",
-      "CUDA",
-      "Python"
-    ],
-    "githubUrl": "https://github.com/visionary-club/project-alpha",
-    "status": "In Progress",
-    "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/main.svg",
-    "images": [
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/01.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/02.svg",
-      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/PROJECT_ALPHA/images/03.svg"
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/01.png",
+      "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Projects/Intrusion_Detection/images/02.png"
     ]
   }
 ]
