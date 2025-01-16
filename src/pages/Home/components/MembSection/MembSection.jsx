@@ -7,8 +7,8 @@ const MembersSection = ({ isDark }) => {
     const [teamData, setTeamData] = useState(null);
 
     useEffect(() => {
-        axios
-            .get('/team-data.json') // Fetch team data from JSON
+        axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/team-data.json')
+            // axios.get('/team-data.json') // Fetch team data from JSON
             .then((response) => {
                 setTeamData(response.data);
             })
