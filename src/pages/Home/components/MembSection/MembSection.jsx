@@ -41,7 +41,7 @@ const MembersSection = ({ isDark }) => {
 
                 {/* Members Flexbox Layout */}
                 <div
-                    className={`flex flex-wrap justify-center lg:justify-between gap-4`}
+                    className={`flex justify-center lg:justify-between gap-4`}
                 >
                     {/* Mentors */}
                     {teamData.mentors.slice(0, 3).map((mentor, index) => (
