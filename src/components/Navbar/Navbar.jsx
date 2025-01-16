@@ -55,7 +55,7 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
                     <Link to="/" className="flex items-center gap-4">
                         <div className="px-4 py-2 rounded-lg">
                             <img
-                                src="../../../public/logo.png"
+                                src="/logo.png"
                                 alt="VC Logo"
                                 className="h-10 object-contain"
                             />
