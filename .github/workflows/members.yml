@@ -2,7 +2,7 @@ name: Generate and Add team-data.json to Repo
 
 on:
   push:
-    branches: ['development']
+    branches: ['main']
 
 jobs:
   generate-members-json:
