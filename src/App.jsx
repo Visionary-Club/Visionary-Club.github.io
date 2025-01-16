@@ -9,6 +9,7 @@ import {ThemeProvider} from "./providers/ThemeProvider/ThemeProvider.jsx";
 import MembersPage from "./pages/Members/MembersPage.jsx";
 import JoinUsPage from "./pages/JoinUs/JoinUsPage.jsx";
 import ContactUsPage from "./pages/ContactUs/ContactUsPage.jsx";
+import {MetaTags} from "./components/MetaTags/MetaTags.jsx";
 
 const App = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,6 +19,7 @@ const App = () => {
 
         <ThemeProvider>
             <Router>
+                <MetaTags/>
                 <Navbar mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
                 <Routes>
                     <Route path="/" element={<HomePage />} />

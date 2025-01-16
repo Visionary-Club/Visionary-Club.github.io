@@ -76,7 +76,7 @@ const ClubFields = () => {
     return (
         <section
             ref={sectionRef}
-            className={`relative pt-10 pb-40   backdrop-blur-[5px] ${
+            className={`relative pt-40 md:pt-10 pb-40   backdrop-blur-[5px] ${
                 isDark ? 'relative bg-transparent' : 'relative bg-transparent'
             }`}
             onWheel={handleWheel}
