@@ -5,7 +5,7 @@ import NotFoundPage from './pages/NotFound/NotFoundPage.jsx';
 import React, {useCallback, useState} from "react";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import {ThemeProvider} from "./providers/ThemeProvider/ThemeProvider.jsx";
-import HackathonPage from "./New/components/Hackathon.jsx";
+
 import MembersPage from "./pages/Members/MembersPage.jsx";
 import JoinUsPage from "./pages/JoinUs/JoinUsPage.jsx";
 import ContactUsPage from "./pages/ContactUs/ContactUsPage.jsx";
@@ -25,7 +25,6 @@ const App = () => {
                     <Route path="*" element={<NotFoundPage />} />
                     {/*<Route path="/events" element={<EventsPage />} />*/}
                     <Route path="/members" element={<MembersPage />} />
-                    <Route path="/hackathon" element={<HackathonPage />} />
                     <Route path={'/join' } element={<JoinUsPage />} />
                     <Route path={'/contact' } element={<ContactUsPage />} />
                 </Routes>
