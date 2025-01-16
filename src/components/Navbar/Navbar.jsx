@@ -166,14 +166,15 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
                         ))}
                         <Link
                             to="/join"
-                            className={`w-full px-4 py-2 font-mono font-bold mt-4 leading-none rounded-lg transition-colors text-center ${
+                            className={`block w-full px-4 py-2 font-mono font-bold my-4 leading-none rounded-lg transition-colors text-center ${
                                 isDark
-                                    ? 'text-black hover:bg-[#B6B600] hover:text-black'
-                                    : 'text-black hover:bg-yellow-300 hover:text-black'
+                                    ? 'bg-yellow-500 text-black hover:bg-[#B6B600] hover:text-black'
+                                    : 'bg-cyan-500 text-black hover:bg-yellow-300 hover:text-black'
                             }`}
                         >
                             JOIN US
                         </Link>
+
                     </div>
                 )}
             </div>
