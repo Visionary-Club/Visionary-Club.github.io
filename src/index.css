@@ -1,17 +1,25 @@
 :root {
+  --background-gradient: linear-gradient(to right, rgb(10 10 10), rgb(17 24 39)); /* Default (dark mode) */
+  --text-color: rgba(255, 255, 255, 0.87);
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(to right, rgb(10 10 10), rgb(17 24 39)); /* #1a1a1a is a common shade of gray-900 */
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Apply default theme styles */
+  background: var(--background-gradient);
+  color: var(--text-color);
+}
+
+/* Light mode variables */
+.light-mode {
+  --background-gradient: linear-gradient(to right, rgb(207 250 254), white); /* Cyan-100 to white */
+  --text-color: rgba(0, 0, 0, 0.87);
 }
 
 a {
