@@ -2,9 +2,10 @@ export const navLinks = [
     ['HOME', '/'],
     ['PROJECTS', '/projects'],
     ['MEMBERS', '/members'],
-    ['EVENTS', '/events'],
-    ['RESOURCES', '/resources'],
-];
+    // ['EVENTS', '/events'],
+    // ['ALUMNI', '/alumni'],
+    ['CONTACT US', '/contact'],
+]
 
 export const divisions = [
     {

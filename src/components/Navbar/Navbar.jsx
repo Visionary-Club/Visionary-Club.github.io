@@ -4,7 +4,6 @@ import { navLinks } from '../../constants/navigation';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from "../../hooks/DarkMode/DarkMode.jsx";
 
-
 const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
     const { isDark, toggleTheme } = useTheme();
     const [isVisible, setIsVisible] = useState(true); // Track navbar visibility
@@ -43,15 +42,13 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
-                isVisible ? 'translate-y-0' : '-translate-y-full'
-            } ${
+            className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'} ${
                 isAtTop
                     ? 'bg-transparent' // Transparent at the top
                     : isDark
                         ? 'bg-gray-900/80 backdrop-blur-md' // Dark mode background
                         : 'bg-white/80 backdrop-blur-md' // Light mode background
-            } ${mobileMenuOpen? 'backdrop-blur-sm':''}`}
+            } ${mobileMenuOpen ? 'backdrop-blur-sm' : ''}`}
         >
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
@@ -107,15 +104,17 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
                             )}
                         </button>
 
-                        <button
-                            className={`px-4 py-2 font-mono font-bold leading-none transition-colors ${
+                        {/* Link to JOIN US page */}
+                        <Link
+                            to="/join"
+                            className={`px-4 py-2 font-mono font-bold leading-none transition-colors rounded-xl ${
                                 isDark
-                                    ? 'bg-[#B6B600] text-black hover:bg-cyan-500'
-                                    : 'bg-yellow-300 text-black hover:bg-[#E6E600]'
+                                    ? 'bg-[#B6B600] text-black hover:bg-cyan-500 hover:text-black'
+                                    : 'bg-yellow-300 text-black hover:bg-cyan-600 hover:text-black'
                             }`}
                         >
-                            INITIALIZE
-                        </button>
+                            JOIN US
+                        </Link>
                     </div>
 
                     {/* Mobile Menu */}
@@ -165,15 +164,16 @@ const Navbar = ({ mobileMenuOpen, setMobileMenuOpen }) => {
                                 &gt; {label}
                             </Link>
                         ))}
-                        <button
-                            className={`w-full px-4 py-2 font-mono font-bold mt-4 ${
+                        <Link
+                            to="/join"
+                            className={`w-full px-4 py-2 font-mono font-bold mt-4 leading-none rounded-lg transition-colors text-center ${
                                 isDark
-                                    ? 'bg-[#B6B600] text-black'
-                                    : 'bg-yellow-300 text-black hover:bg-[#E6E600]'
+                                    ? 'text-black hover:bg-[#B6B600] hover:text-black'
+                                    : 'text-black hover:bg-yellow-300 hover:text-black'
                             }`}
                         >
-                            INITIALIZE
-                        </button>
+                            JOIN US
+                        </Link>
                     </div>
                 )}
             </div>
