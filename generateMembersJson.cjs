@@ -5,9 +5,9 @@ const path = require('path');
 const baseDir = path.join(__dirname, 'public', 'Members');
 
 // Define the base path for local image paths
-const basePath = 'public/Members';
+//const basePath = 'public/Members';
 // Define the base GitHub path for image URLs (for raw GitHub usage)
-// const baseGithubPath = 'https://raw.githubusercontent.com/yourusername/yourrepo/main/public/Members';
+const baseGithubPath = 'https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members';
 
 // Map of category names to the keys in combinedData
 const categoryMapping = {
@@ -60,10 +60,10 @@ const combineMetadata = () => {
 
                         // Set the correct image path
                         const imageFileName = metadata.image.split('/').pop();
-                        metadata.image = path.join(basePath, category, memberDir, imageFileName); // Local path
+                        //metadata.image = path.join(basePath, category, memberDir, imageFileName); // Local path
 
                         // Uncomment the line below for raw GitHub path
-                        // metadata.image = `${baseGithubPath}/${category}/${memberDir}/${imageFileName}`;
+                        metadata.image = `${baseGithubPath}/${category}/${memberDir}/${imageFileName}`;
 
                         combinedData[categoryKey].push(metadata);
                     }
