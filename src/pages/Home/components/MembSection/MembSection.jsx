@@ -41,7 +41,7 @@ const MembersSection = ({ isDark }) => {
 
                 {/* Members Flexbox Layout */}
                 <div
-                    className={`flex justify-center lg:justify-between gap-4`}
+                    className={`flex flex-wrap md:flex-nowrap justify-center lg:justify-between gap-4`}
                 >
                     {/* Mentors */}
                     {teamData.mentors.slice(0, 3).map((mentor, index) => (
@@ -111,7 +111,8 @@ const MembersSection = ({ isDark }) => {
                         } duration-1000`}
                     >
                         {/* Arrow Section */}
-                        <div className="flex justify-center items-center overflow-hidden rounded-lg aspect-[2/2.5] mx-auto w-60 md:w-48">
+                        <div
+                            className="flex justify-center items-center overflow-hidden rounded-lg aspect-[2/2.5] mx-auto w-60 md:w-48">
                             <FaArrowRight
                                 size={40}
                                 className={`${
