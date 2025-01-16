@@ -398,7 +398,7 @@ const TitleSection = ({
             <div className="absolute inset-0">
                 {/* Top line - starts from left */}
                 <motion.div
-                    className={`absolute -top-2 left-[10%] md:left-[22%] right-[51%] h-[2px] ${
+                    className={`absolute -top-2 left-[10%] md:left-[22%] right-[51%] h-[2.5px] ${
                         isDark ? `${darkColor}` : `${lightColor}`
                     }`}
                     variants={topLineVariants}
