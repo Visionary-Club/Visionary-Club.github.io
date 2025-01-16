@@ -10,7 +10,8 @@ const MembersPage = () => {
     const { isDark } = useTheme();
 
     useEffect(() => {
-        axios.get('/team-data.json')
+        axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/team-data.json')//axios.get('/team-data.json')
+            //axios.get('/team-data.json')
             .then(response => {
 
                 setTeamData(response.data);

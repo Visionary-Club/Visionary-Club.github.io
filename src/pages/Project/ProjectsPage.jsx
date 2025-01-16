@@ -13,8 +13,8 @@ const ProjectsPage = () => {
     const [selectedProject, setSelectedProject] = useState(null);
 
     useEffect(() => {
-        //axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/projects.json')
-        axios.get('/projects.json')
+        axios.get('https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/refs/heads/development/public/projects.json')
+        //axios.get('/projects.json')
             .then(response => {
                 const sortedProjects = response.data.sort(
                     (a, b) => new Date(b.date) - new Date(a.date)
