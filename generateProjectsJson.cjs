@@ -3,7 +3,7 @@ const path = require('path');
 
 const projectsDir = path.join(__dirname, 'public', 'Projects');
 const projectsJsonPath = path.join(__dirname, 'public', 'projects.json');
-const rawBaseUrl = 'https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/main/public/Projects';
+const rawBaseUrl = 'https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Projects';
 //const rawBaseUrl = "Projects";
 const generateProjectsJson = async () => {
     const projectDirs = await fs.readdir(projectsDir);
