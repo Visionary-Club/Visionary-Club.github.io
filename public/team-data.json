@@ -1,1 +1,145 @@
-
+{
+  "mentors": [
+    {
+      "name": "Dr. Nitin Satpute",
+      "role": "Senior Mentor",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Senior Mentor/Dr. Nitin Satpute/nitin.png",
+      "linkedin": "https://www.linkedin.com/in/nitinsatpute123/",
+      "github": null
+    },
+    {
+      "name": "Dr. Pratibha Mahajan",
+      "role": "Senior Mentor",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Senior Mentor/Dr. Pratibha Mahajan/pratibha.jpeg",
+      "linkedin": "https://www.linkedin.com/in/pratibha-mahajan-9906b8228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": null
+    },
+    {
+      "name": "Prajakta Dhamdhere",
+      "role": "Senior Mentor",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Senior Mentor/Dr. Prajakta Dhamdhere/prajakta.png",
+      "linkedin": "https://www.linkedin.com/in/prajakta-dhamdhere-4a31b516a/",
+      "github": null
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Shriram Dixit",
+      "role": "President",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Leadership/Shriram Dixit/shree1.jpg",
+      "linkedin": "https://www.linkedin.com/in/shriram-dixit-9470a1285/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Omkar More",
+      "role": "General Secretary",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Leadership/Omkar More/Omkar.jpg",
+      "linkedin": "https://www.linkedin.com/in/omkar-more-038567281/",
+      "github": "members",
+      "description": ""
+    }
+  ],
+  "clubLeads": [
+    {
+      "name": "Sujal Gundlapelli",
+      "role": "Social Media Head",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Club Leads/Sujal Gundlapelli/Sujal.jpg",
+      "linkedin": "https://www.linkedin.com/in/sujal-gundlapelli-901777266/",
+      "github": "members",
+      "description": ""
+    }
+  ],
+  "coreMembers": [
+    {
+      "name": "Aditya Chavan",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Aditya Chavan/aditya.jpg",
+      "linkedin": "https://www.linkedin.com/in/aditya-chavan-5117aa268/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Jayashri Utrankar",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Jayashri Utrankar/Jayashri_Utrankar.jpg",
+      "linkedin": "https://www.linkedin.com/in/jayashri-utrankar-8546712a8/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Neel Khatri",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Neel Khatri/Neel_Khatri.jpg",
+      "linkedin": "https://www.linkedin.com/in/neel-khatri-a97039328/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Rohan Sinha",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Rohan Sinha/rohan_sinha.jpg",
+      "linkedin": "https://www.linkedin.com/in/rohan-sinha-b1b778312/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Saumya Shah",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Saumya Shah/saumya.jpg",
+      "linkedin": "https://www.linkedin.com/in/saumya-shah-9b2579273/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Sharvari Korde",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Sharvari Korde/sharvari.jpeg",
+      "linkedin": "https://www.linkedin.com/in/sharvari-korde-85b993268/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Shriyog More",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Shriyog More/Shriyog _More.jpg",
+      "linkedin": "https://www.linkedin.com/in/shriyog-more-038442271/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Siddhi Wani",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Siddhi Wani/Siddhi_Wani.jpg",
+      "linkedin": "https://www.linkedin.com/in/siddhi-wani-08828320b/",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Sumeet Jadhav",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Sumeet Jadhav/sumeet.JPG",
+      "linkedin": "https://linkedin.com/in/example",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Varun Inamdar",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Core Members/Varun Inamdar/varun1.jpg",
+      "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/",
+      "github": "members",
+      "description": ""
+    }
+  ],
+  "managementTeam": [
+    {
+      "name": "Gayatri Kad",
+      "role": "Management Team",
+      "image": "https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members/Management Team/Gayatri Kad/gayatri.jpg",
+      "linkedin": "https://www.linkedin.com/in/gayatri-kad-ab2341231/",
+      "github": "members",
+      "description": ""
+    }
+  ]
+}
