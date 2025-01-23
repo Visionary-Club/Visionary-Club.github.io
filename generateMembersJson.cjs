@@ -7,7 +7,7 @@ const baseDir = path.join(__dirname, 'public', 'Members');
 // Define the base path for local image paths
 //const basePath = 'public/Members';
 // Define the base GitHub path for image URLs (for raw GitHub usage)
-const baseGithubPath = 'https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/development/public/Members';
+const baseGithubPath = 'https://raw.githubusercontent.com/o-Erebus/Visionary-Club.github.io/main/public/Members';
 
 // Map of category names to the keys in combinedData
 const categoryMapping = {
