@@ -27,7 +27,7 @@ const ProjectsPage = () => {
     return (
         <>
             <div className={`min-h-screen w-screen overflow-y-scroll hide-scrollbar scrollbar-none ${
-                isDark ? 'bg-transparent' : 'bg-gray-50'
+                isDark ? 'bg-gradient-to-r from-black to-gray-950' : 'bg-gray-50'
             }`}>
                 <TitleSection title="OUR_PROJECTS" />
 

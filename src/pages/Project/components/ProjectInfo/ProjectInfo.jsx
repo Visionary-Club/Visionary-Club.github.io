@@ -1,6 +1,7 @@
-import React from 'react';
+import 'react';
 import { Github } from 'lucide-react';
 
+// eslint-disable-next-line react/prop-types
 const ProjectInfo = ({ project, isDark }) => {
     return (
         <div className="flex flex-col h-dvh p-8 ">
@@ -8,10 +9,12 @@ const ProjectInfo = ({ project, isDark }) => {
                 <h2 className={`text-2xl tracking-wider mb-2 ${
                     isDark ? 'text-cyan-500' : 'text-yellow-600'
                 }`}>
+                    {/* eslint-disable-next-line react/prop-types */}
                     {project.title}
                 </h2>
                 <div className="flex items-center space-x-4">
                     <span className={isDark ? 'text-[#B6B600]' : 'text-gray-600'}>
+                        {/* eslint-disable-next-line react/prop-types */}
                         {new Date(project.date).toLocaleDateString('en-US', {
                             month: 'long',
                             year: 'numeric'
@@ -22,6 +25,7 @@ const ProjectInfo = ({ project, isDark }) => {
                             ? 'text-cyan-400/60 border border-cyan-400/30'
                             : 'text-yellow-600/80 border border-yellow-400/30'
                     }`}>
+                        {/* eslint-disable-next-line react/prop-types */}
                         {project.status}
                     </span>
                 </div>
@@ -31,6 +35,7 @@ const ProjectInfo = ({ project, isDark }) => {
                 <p className={`leading-relaxed mb-6 ${
                     isDark ? 'text-[#B6B600]' : 'text-gray-600'
                 }`}>
+                    {/* eslint-disable-next-line react/prop-types */}
                     {project.longDescription}
                 </p>
 
@@ -39,6 +44,7 @@ const ProjectInfo = ({ project, isDark }) => {
                         TECHNOLOGIES
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-3">
+                        {/* eslint-disable-next-line react/prop-types */}
                         {project.technologies.map((tech, index) => (
                             <span
                                 key={index}
@@ -56,6 +62,7 @@ const ProjectInfo = ({ project, isDark }) => {
             </div>
 
             {/* Mentor and Team Members Section */}
+            {/* eslint-disable-next-line react/prop-types */}
             {(project.mentor || project.team) && (
                 <div className={`pt-6 pb-6 ${isDark
                     ? 'border-t border-cyan-500/20'
@@ -63,12 +70,14 @@ const ProjectInfo = ({ project, isDark }) => {
                 }`}>
                     <div className="grid grid-cols-2 gap-8">
                         {/* Mentor Section */}
+                        {/* eslint-disable-next-line react/prop-types */}
                         {project.mentor && (
                             <div>
                                 <h3 className={`mb-3 ${isDark ? 'text-cyan-500' : 'text-yellow-600'}`}>
                                     MENTOR
                                 </h3>
                                 <div>
+                                    {/* eslint-disable-next-line react/prop-types */}
                                     {project.mentor.linkedin ? (
                                         <a
                                             href={project.mentor.linkedin}

@@ -9,7 +9,7 @@ const JoinUsPage = () => {
     const { isDark } = useTheme();
 
     return (
-        <section className={`min-h-dvh w-dvw ${isDark ? 'bg-gray-900' : 'bg-white'} text-center`}>
+        <section className={`min-h-dvh w-dvw ${isDark ? 'bg-gradient-to-r from-black to-gray-950' : 'bg-white'} text-center`}>
             <div className="container mx-auto px-6 py-36">
 
 

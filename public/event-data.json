@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Inaugration Ceremony",
+    "date": "March 15-16, 2024",
+    "location": "Main Auditorium",
+    "description": "Join us for two days of cutting-edge technology discussions and networking opportunities with industry leaders.",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "title": "hackthon 2023",
+    "date": "April 20-21, 2024",
+    "location": "Tech Park",
+    "description": "Explore the latest trends in UI/UX design and learn from world-renowned designers in this immersive summit.",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "title": "TechFest 2024",
+    "date": "May 5-6, 2024",
+    "location": "Convention Center",
+    "description": "Hands-on workshop covering the latest web development technologies and best practices.",
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "title": "AI Olympiad",
+    "date": "December 1, 2023",
+    "location": "Main Auditorium",
+    "description": "Join us for the AI Olympiad, a competition showcasing the latest advancements in artificial intelligence.",
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=1000"
+  }
+]

@@ -23,7 +23,7 @@ const MembersPage = () => {
 
     return (
         <main
-            className={`min-h-dvh w-dvw lg:pb-16 px-8 sm:px-12 lg:px-16 transition-colors pb-8 ${isDark ? 'bg-transparent' : 'bg-gray-100'}`}
+            className={`min-h-dvh w-dvw lg:pb-16 px-8 sm:px-12 lg:px-16 transition-colors pb-8 ${isDark ? 'bg-gradient-to-r from-black to-gray-950' : 'bg-gray-100'}`}
         >
             <TitleSection title="OUR_TEAM" lightColor={"bg-yellow-500"} />
             <div className="max-w-7xl mx-auto space-y-16">

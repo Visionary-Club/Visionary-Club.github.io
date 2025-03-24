@@ -26,7 +26,7 @@ const Homepage = () => {
 
 
     return (
-        <div className="h-screen w-screen md:overflow-y-scroll hide-scrollbar">
+        <div className={`h-screen w-screen md:overflow-y-scroll hide-scrollbar ${isDark ? 'bg-gradient-to-r from-black to-gray-950' : ''} `}>
 
             <HeroSection scrollToNext={scrollToSection} next={'what-section'} blurAmount={1}/>
             <WhatSection />

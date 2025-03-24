@@ -1,5 +1,5 @@
 :root {
-  --background-gradient: linear-gradient(to right, rgb(10 10 10), rgb(17 24 39)); /* Default (dark mode) */
+   --background-gradient: linear-gradient(to right, rgb(10 10 10), rgb(17 24 39));
   --text-color: rgba(255, 255, 255, 0.87);
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -18,8 +18,8 @@
 
 /* Light mode variables */
 .light-mode {
-  --background-gradient: linear-gradient(to right, rgb(207 250 254), white); /* Cyan-100 to white */
-  --text-color: rgba(0, 0, 0, 0.87);
+   --background-gradient: linear-gradient(to right, rgb(207 250 254), white);
+  --text-color: rgba(0, 0, 0, 0.87); 
 }
 
 a {

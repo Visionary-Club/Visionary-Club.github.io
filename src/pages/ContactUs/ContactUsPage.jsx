@@ -7,7 +7,7 @@ const ContactUsPage = () => {
 
     return (
         <section
-            className={`flex items-center justify-center relative h-dvh w-dvw ${isDark ? 'bg-transparent' : 'bg-gray-100'} transition-colors py-16`}
+            className={`flex items-center justify-center relative h-dvh w-dvw ${isDark ? 'bg-gradient-to-r from-black to-gray-950' : 'bg-gray-100'} transition-colors py-16`}
         >
 
             <div
@@ -43,7 +43,7 @@ const ContactUsPage = () => {
                             href="mailto:visionaryclub16@gmail.com"
                             className={`font-semibold ${isDark ? 'text-gray-300' : 'text-gray-800'}`}
                         >
-                            visionaryclub16@gmail.com
+                            visionaryclub.st@vupune.ac.in
                         </a>
                     </div>
 

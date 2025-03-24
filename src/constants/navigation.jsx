@@ -2,8 +2,8 @@ export const navLinks = [
     ['HOME', '/'],
     ['PROJECTS', '/projects'],
     ['MEMBERS', '/members'],
-    // ['EVENTS', '/events'],
-    // ['ALUMNI', '/alumni'],
+    ['EVENTS', '/events'],
+    ['ALUMNI', '/alumni'],
     ['CONTACT US', '/contact'],
 ]
 
