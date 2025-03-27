@@ -28,7 +28,7 @@ const App = () => {
                     <Route path="/members" element={<MembersPage />} />
                     <Route path="/join" element={<JoinUsPage />} />
                     <Route path="/contact" element={<ContactUsPage />} />
-                    <Route path="/alumni" element={<Alumni />} />
+                    {/* <Route path="/alumni" element={<Alumni />} /> */}
                 </Routes>
             </Router>
         </ThemeProvider>

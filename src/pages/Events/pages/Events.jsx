@@ -82,24 +82,24 @@ const Events = () => {
                 "Certificate of participation"
             ],
             category: "Educational"
-        },
-        {
-            title: "AI Olympiad",
-            date: "1 December, 2023",
-            description: "Join us for the AI Olympiad, a competition showcasing the latest advancements in artificial intelligence.",
-            fullDescription: "Get ready for an action-packed AI Olympiad to test out your AI skills. This olympiad features a series of challenges and competitions designed to push your AI knowledge to the limit. Compete against other participants and showcase your skills to win amazing prizes!",
-            image: "/events/olympiad.jpg",
-            images: [
-                "/Events/olympiad.jpg"
-            ],
-            highlights: [
-                "AI Olympiad",
-                "Certificate of participation",
-                "Networking opportunities",
-                "Prizes for winners"
-            ],
-            category: "Technical"
         }
+        // {
+        //     title: "AI Olympiad",
+        //     date: "1 December, 2023",
+        //     description: "Join us for the AI Olympiad, a competition showcasing the latest advancements in artificial intelligence.",
+        //     fullDescription: "Get ready for an action-packed AI Olympiad to test out your AI skills. This olympiad features a series of challenges and competitions designed to push your AI knowledge to the limit. Compete against other participants and showcase your skills to win amazing prizes!",
+        //     image: "/events/olympiad.jpg",
+        //     images: [
+        //         "/Events/olympiad.jpg"
+        //     ],
+        //     highlights: [
+        //         "AI Olympiad",
+        //         "Certificate of participation",
+        //         "Networking opportunities",
+        //         "Prizes for winners"
+        //     ],
+        //     category: "Technical"
+        // }
     ];
 
     const containerVariants = {

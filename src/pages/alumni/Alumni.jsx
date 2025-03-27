@@ -18,7 +18,6 @@ const Alumni = () => {
         await console.log(container);
     }, []);
 
-    // Sample alumni data with hierarchy
     const alumniData = {
         founders: [
             {
@@ -220,7 +219,7 @@ const Alumni = () => {
         <div className={`min-h-screen ${isDark ? 'bg-gradient-to-r from-black to-gray-950' : 'bg-gradient-to-r from-cyan-100 to-white'}`}>
             <ParticlesBackground init={particlesInit} loaded={particlesLoaded} />
             
-            {/* Hero Section */}
+           
             <motion.section 
                 className="relative pt-20 pb-20 text-center"
                 initial={{ opacity: 0, y: -20 }}
@@ -257,7 +256,7 @@ const Alumni = () => {
                 </div>
             </motion.section>
 
-            {/* Search and Filter Section */}
+       
             <motion.section 
                 className="py-10"
                 initial={{ opacity: 0 }}
@@ -298,10 +297,10 @@ const Alumni = () => {
                 </div>
             </motion.section>
 
-            {/* Alumni Grid Section */}
+           
             <section className="py-12">
                 <div className="container mx-auto px-6">
-                    {/* Founders Section */}
+                   
                     <motion.div 
                         className="mb-16"
                         initial={{ opacity: 0, y: 20 }}
@@ -318,7 +317,7 @@ const Alumni = () => {
                         </div>
                     </motion.div>
 
-                    {/* Former Members Section */}
+                  
                     <motion.div 
                         className="mb-16"
                         initial={{ opacity: 0, y: 20 }}
