@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useTheme } from "../../hooks/DarkMode/DarkMode.jsx";
 import TitleSection from "../../components/TitleSection/TitleSection.jsx";
-import MentorSection from './components/MentorSection.jsx';
 import MemberSection from './components/MemberSection.jsx';
 
 const MembersPage = () => {
@@ -33,7 +32,6 @@ const MembersPage = () => {
                     <>
                         <MemberSection title="Mentors" members={teamData.mentors} />
                         <MemberSection title="Leadership" members={teamData.leadership} />
-                        <MemberSection title="Club Leads" members={teamData.clubLeads} />
                         <MemberSection title="Core Members" members={teamData.coreMembers} />
                         <MemberSection title="Management Team" members={teamData.managementTeam} />
                     </>
