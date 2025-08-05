@@ -40,6 +40,16 @@
       "description": ""
     }
   ],
+  "clubLeads": [
+    {
+      "name": "Sujal Gundlapelli",
+      "role": "Social Media Head",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Club Leads/Sujal Gundlapelli/Sujal.jpg",
+      "linkedin": "https://www.linkedin.com/in/sujal-gundlapelli-901777266/",
+      "github": "members",
+      "description": ""
+    }
+  ],
   "coreMembers": [
     {
       "name": "Jayashri Utrankar",
@@ -50,18 +60,18 @@
       "description": ""
     },
     {
-      "name": "Varun Inamdar",
-      "role": "Core Member",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Varun Inamdar/varun2.jpg",
-      "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/",
-      "github": "members",
-      "description": ""
-    },
-    {
       "name": "Rehan Shaikh",
       "role": "Core Member",
       "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Rehan Shaikh/rehanshaikh.jpg",
       "linkedin": "https://www.linkedin.com/in/rehanshaikh2702?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Varun Inamdar",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Varun Inamdar/varun1.jpg",
+      "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/",
       "github": "members",
       "description": ""
     }
@@ -75,6 +85,5 @@
       "github": "members",
       "description": ""
     }
-  ],
-  "socialMediaTeam": []
+  ]
 }
