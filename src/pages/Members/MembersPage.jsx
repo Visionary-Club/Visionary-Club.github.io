@@ -9,10 +9,8 @@ const MembersPage = () => {
     const { isDark } = useTheme();
 
     useEffect(() => {
-        axios.get('https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/refs/heads/main/public/team-data.json')//axios.get('/team-data.json')
-            //axios.get('/team-data.json')
+        axios.get('/team-data.json')
             .then(response => {
-
                 setTeamData(response.data);
             })
             .catch(error => {
@@ -34,12 +32,12 @@ const MembersPage = () => {
                         <MemberSection title="Leadership" members={teamData.leadership} />
                         <MemberSection title="Core Members" members={teamData.coreMembers} />
                         <MemberSection title="Management Team" members={teamData.managementTeam} />
+                        <MemberSection title="Social Media Team" members={teamData.socialMediaTeam} />
                     </>
                 )}
             </div>
         </main>
     );
 };
-
 
 export default MembersPage;
