@@ -40,16 +40,7 @@
       "description": ""
     }
   ],
-  "clubLeads": [
-    {
-      "name": "Sujal Gundlapelli",
-      "role": "Social Media Head",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Club Leads/Sujal Gundlapelli/Sujal.jpg",
-      "linkedin": "https://www.linkedin.com/in/sujal-gundlapelli-901777266/",
-      "github": "members",
-      "description": ""
-    }
-  ],
+  "clubLeads": [],
   "coreMembers": [
     {
       "name": "Jayashri Utrankar",
@@ -84,6 +75,23 @@
       "linkedin": "https://www.linkedin.com/in/gayatri-kad-ab2341231/",
       "github": "members",
       "description": ""
+    },
+    {
+      "name": "Tanuj Jain",
+      "role": "Management Team",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management Team/Tanuj Jain/tanuj.jpg",
+      "linkedin": "https://www.linkedin.com/in/tanuj-jain-3bbbba330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "members",
+      "description": ""
+    },
+    {
+      "name": "Dhanali",
+      "role": "Management Team",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management Team/Dhanali/dhanali.jpg",
+      "linkedin": "https://www.linkedin.com/in/dhanali-khandagale-8a0821336/",
+      "github": "members",
+      "description": ""
     }
-  ]
+  ],
+  "socialMediaTeam": []
 }
