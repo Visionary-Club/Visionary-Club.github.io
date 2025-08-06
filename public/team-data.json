@@ -60,6 +60,12 @@
       "description": ""
     },
     {
+      "name": "Piyush Dhoka",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Piyush%20Dhoka/piyush-dhoka.jpg?raw=true",
+      "linkedin": "https://www.linkedin.com/in/piyush-garg-08758b323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
       "name": "Rehan Shaikh",
       "role": "Core Member",
       "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Rehan%20Shaikh/rehanshaikh.jpg?raw=true",
@@ -68,12 +74,24 @@
       "description": ""
     },
     {
+      "name": "Sharmila Udaiyar",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Sharmila%20Udaiyar/sharmila-udaiyar.jpg?raw=true",
+      "linkedin": "http://www.linkedin.com/in/sharmilaudaiyar"
+    },
+    {
       "name": "Varun Inamdar",
       "role": "Core Member",
       "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Varun%20Inamdar/varun1.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/",
       "github": "members",
       "description": ""
+    },
+    {
+      "name": "Vedant Pandhare",
+      "role": "Core Member",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Vedant%20Pandhare/vedant-pandhare.jpg?raw=true",
+      "linkedin": "https://www.linkedin.com/in/vedant-pandhare?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     }
   ],
   "managementTeam": [
