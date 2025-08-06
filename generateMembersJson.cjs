@@ -15,7 +15,8 @@ const categoryMapping = {
     'Leadership': 'leadership',
     'Club Leads': 'clubLeads',
     'Core Members': 'coreMembers',
-    'Management Team': 'managementTeam'
+    'Management Team': 'managementTeam',
+    'Social Media': 'socialMediaTeam'
 };
 
 // Function to read and parse the metadata JSON file
@@ -37,7 +38,28 @@ const combineMetadata = () => {
         leadership: [],
         clubLeads: [],
         coreMembers: [],
-        managementTeam: []
+        managementTeam: [],
+        socialMediaTeam: []
+    };
+
+    // Function to encode URL parts and append raw=true query param
+    const encodeUrl = (category, memberDir, imageFileName) => {
+        // Encode each part separately to handle spaces and special chars
+        const encodedCategory = encodeURIComponent(category);
+        const encodedMemberDir = encodeURIComponent(memberDir);
+        const encodedImageFileName = encodeURIComponent(imageFileName);
+
+        // Construct URL without query param
+        let url = `${baseGithubPath}/${encodedCategory}/${encodedMemberDir}/${encodedImageFileName}`;
+
+        // Append raw=true query param
+        // If URL already has query params, append with &
+        if (url.includes('?')) {
+            url += '&raw=true';
+        } else {
+            url += '?raw=true';
+        }
+        return url;
     };
 
     // Iterate through each category
@@ -58,12 +80,14 @@ const combineMetadata = () => {
                     if (metadata) {
                         const categoryKey = categoryMapping[category];
 
-                        // Set the correct image path
-                        const imageFileName = metadata.image.split('/').pop();
-                        //metadata.image = path.join(basePath, category, memberDir, imageFileName); // Local path
-
-                        // Uncomment the line below for raw GitHub path
-                        metadata.image = `${baseGithubPath}/${category}/${memberDir}/${imageFileName}`;
+                        // Set the correct image path with encoding and raw=true
+                        if (metadata.image && typeof metadata.image === 'string') {
+                            const imageFileName = metadata.image.split('/').pop();
+                            metadata.image = encodeUrl(category, memberDir, imageFileName);
+                        } else {
+                            console.warn(`Image property missing or invalid for member: ${memberDir} in category: ${category}`);
+                            metadata.image = '';
+                        }
 
                         combinedData[categoryKey].push(metadata);
                     }

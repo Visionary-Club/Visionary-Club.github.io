@@ -3,21 +3,21 @@
     {
       "name": "Dr. Nitin Satpute",
       "role": "Senior Mentor",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior Mentor/Dr. Nitin Satpute/nitin.png",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior%20Mentor/Dr.%20Nitin%20Satpute/nitin.png?raw=true",
       "linkedin": "https://www.linkedin.com/in/nitinsatpute123/",
       "github": null
     },
     {
       "name": "Dr. Pratibha Mahajan",
       "role": "Senior Mentor",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior Mentor/Dr. Pratibha Mahajan/pratibha.jpeg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior%20Mentor/Dr.%20Pratibha%20Mahajan/pratibha.jpeg?raw=true",
       "linkedin": "https://www.linkedin.com/in/pratibha-mahajan-9906b8228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": null
     },
     {
       "name": "Prajakta Dhamdhere",
       "role": "Senior Mentor",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior Mentor/Dr. Prajakta Dhamdhere/prajakta.png",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Senior%20Mentor/Dr.%20Prajakta%20Dhamdhere/prajakta.png?raw=true",
       "linkedin": "https://www.linkedin.com/in/prajakta-dhamdhere-4a31b516a/",
       "github": null
     }
@@ -26,7 +26,7 @@
     {
       "name": "Shriram Dixit",
       "role": "President",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Leadership/Shriram Dixit/shree1.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Leadership/Shriram%20Dixit/shree1.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/shriram-dixit-9470a1285/",
       "github": "members",
       "description": ""
@@ -34,18 +34,27 @@
     {
       "name": "Omkar More",
       "role": "General Secretary",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Leadership/Omkar More/Omkar.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Leadership/Omkar%20More/Omkar.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/omkar-more-038567281/",
       "github": "members",
       "description": ""
     }
   ],
-  "clubLeads": [],
+  "clubLeads": [
+    {
+      "name": "Sujal Gundlapelli",
+      "role": "Social Media Head",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Club%20Leads/Sujal%20Gundlapelli/Sujal.jpg?raw=true",
+      "linkedin": "https://www.linkedin.com/in/sujal-gundlapelli-901777266/",
+      "github": "members",
+      "description": ""
+    }
+  ],
   "coreMembers": [
     {
       "name": "Jayashri Utrankar",
       "role": "Core Member",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Jayashri Utrankar/Jayashri_Utrankar.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Jayashri%20Utrankar/Jayashri_Utrankar.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/jayashri-utrankar-8546712a8/",
       "github": "members",
       "description": ""
@@ -53,7 +62,7 @@
     {
       "name": "Rehan Shaikh",
       "role": "Core Member",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Rehan Shaikh/rehanshaikh.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Rehan%20Shaikh/rehanshaikh.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/rehanshaikh2702?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "members",
       "description": ""
@@ -61,7 +70,7 @@
     {
       "name": "Varun Inamdar",
       "role": "Core Member",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core Members/Varun Inamdar/varun1.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Core%20Members/Varun%20Inamdar/varun1.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/varun-inamdar-53baa1287/",
       "github": "members",
       "description": ""
@@ -69,45 +78,57 @@
   ],
   "managementTeam": [
     {
+      "name": "Dhanali",
+      "role": "Management Team",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management%20Team/Dhanali/dhanali.jpg?raw=true",
+      "linkedin": "https://www.linkedin.com/in/dhanali-khandagale-8a0821336/"
+    },
+    {
       "name": "Gayatri Kad",
       "role": "Management Team",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management Team/Gayatri Kad/gayatri.jpg",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management%20Team/Gayatri%20Kad/gayatri.jpg?raw=true",
       "linkedin": "https://www.linkedin.com/in/gayatri-kad-ab2341231/",
       "github": "members",
       "description": ""
     },
     {
-      "name": "Tanuj Jain",
+      "name": "Harsh Nagre",
       "role": "Management Team",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management Team/Tanuj Jain/tanujjain.jpg?raw=true",
-      "linkedin": "https://www.linkedin.com/in/tanuj-jain-3bbbba330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "github": "members",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management%20Team/Harsh%20Nagre/harshnagre.jpg?raw=true",
+      "linkedin": "",
+      "github": "",
       "description": ""
     },
     {
-      "name": "Dhanali",
+      "name": "Tanuj Jain",
       "role": "Management Team",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management Team/Dhanali/dhanali.jpg",
-      "linkedin": "https://www.linkedin.com/in/dhanali-khandagale-8a0821336/",
-      "github": "members",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management%20Team/Tanuj%20Jain/tanujjain.jpg?raw=true",
+      "linkedin": "https://www.linkedin.com/in/tanuj-jain-3bbbba330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    },
+    {
+      "name": "Yash Sulakhe",
+      "role": "Management Team",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Management%20Team/Yash%20Sulakhe/yashsulakhe.jpg?raw=true",
+      "linkedin": "",
+      "github": "",
       "description": ""
     }
   ],
   "socialMediaTeam": [
     {
-      "name": "Siddhi Mundada",
-      "role": "Social Media Team",
-      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Social%20Media/Siddhi/siddhi.jpg?raw=true",
-      "linkedin": "https://www.linkedin.com/in/siddhi-mundada-742833317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "github": "members",
-      "description": ""
-    },
-    {
       "name": "Aqsa Waikar",
       "role": "Social Media Team",
       "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Social%20Media/Aqsa/aqsa.jpg?raw=true",
-      "linkedin": "https://www.linkedin.com/in/aqsa-waikar16506?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      "github": "members",
+      "linkedin": "",
+      "github": "",
+      "description": ""
+    },
+    {
+      "name": "Siddhi Mundada",
+      "role": "Social Media Team",
+      "image": "https://raw.githubusercontent.com/Visionary-Club/Visionary-Club.github.io/main/public/Members/Social%20Media/Siddhi/siddhi.jpg?raw=true",
+      "linkedin": "",
+      "github": "",
       "description": ""
     }
   ]
