@@ -28,6 +28,11 @@ const MemberCard = ({ member, index, isDark }) => {
               src={member.image || defaultImage}
               alt={member.name}
               onLoad={handleImageLoad}
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = defaultImage;
+                setIsImageLoaded(true);
+              }}
               className={`w-full h-full object-cover duration-500 ${isImageLoaded ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
           />
         </div>

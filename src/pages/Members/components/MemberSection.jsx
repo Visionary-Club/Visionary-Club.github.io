@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import { useTheme } from "../../../hooks/DarkMode/DarkMode.jsx";
 import MemberCard from './MemberCard.jsx';
 import TitleWithBorder from "./TitleWithBorder.jsx";
@@ -23,6 +23,11 @@ const MemberSection = ({ title, members }) => {
             </div>
         </section>
     );
+};
+
+MemberSection.propTypes = {
+    title: PropTypes.string.isRequired,
+    members: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default MemberSection;
